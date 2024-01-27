@@ -3,7 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+body{
   background-color: #12151d;
   padding: 3px;
   font-family: 'Oswald', sans-serif;
