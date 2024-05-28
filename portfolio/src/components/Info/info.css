@@ -2,3 +2,11 @@ div.info-div{
     width: 50%;
     min-height: 95vh;
 }
+div.conocimientos>span{
+    border: 1px solid black;
+}
+div.conocimientos>span:hover{
+    background-color: rgb(23 37 84);
+    transition: all 0.3s ease-in-out;
+    color: yellow;
+}
