@@ -1,7 +1,9 @@
 div.info-div{
     width: 50%;
     min-height: 95vh;
+    max-height: 95vh;
 }
+
 div.conocimientos>span{
     border: 1px solid black;
 }

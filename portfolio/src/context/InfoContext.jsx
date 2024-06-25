@@ -12,7 +12,7 @@ export function InfoContextProvider(props) {
     Experiencia: "Experiencia"
     }
 
-  const [info, setInfo] = useState(SECTIONS["Conocimientos"])
+  const [info, setInfo] = useState("")
   useEffect(() => {
     console.log("Contexto cargado")
   }, [])

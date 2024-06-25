@@ -2,6 +2,7 @@ import React, {useContext, useEffect} from 'react'
 import Conocimientos from './conocimientos/Conocimientos'
 import Aptitudes from './aptitudes/Aptitudes'
 import Formacion from './formacion/Formacion'
+import Proyectos from './proyectos/Proyectos.jsx'
 import {InfoContext} from '../../context/InfoContext'
 import './info.css'
 
@@ -34,6 +35,19 @@ function Info({checkSection}) {
       </div>
     )
   }
+  if(info == "Proyectos"){
+    return (
+      <div className='info-div bg-slate-50 rounded-md flex flex-col justify-center items-center p-5'>
+        <Proyectos></Proyectos>
+      </div>
+    )
+  }
+
+  return (
+    <div className='info-div bg-slate-50 rounded-md flex flex-col justify-center items-center p-5'>
+      
+    </div>
+  )
   //<Conocimientos/>
   
 }

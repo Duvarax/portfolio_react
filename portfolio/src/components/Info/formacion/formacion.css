@@ -1,0 +1,34 @@
+.lista-item {
+    position: relative;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-right: 2px solid black;
+  }
+
+.lista-item::before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #000000; /* bg-blue-500 */
+    border-radius: 50%;
+    position: relative;
+    right: 20px;
+    top: 23px; /* mr-2 */
+  }
+
+
+.lista-item::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 15px;
+  width: 2px;
+  height: 100%;
+  background-color: #000000; /* bg-gray-300 */
+  z-index: 1;
+}
+
+.lista-item:last-child::after {
+  height: 100%;
+}

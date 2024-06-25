@@ -1,7 +1,7 @@
 .icon{
     font-size: 3rem;
 }
-div.segment{
+a.segment{
     border: 2px solid black;
     transition: all 0.3s ease-in-out;
 }
